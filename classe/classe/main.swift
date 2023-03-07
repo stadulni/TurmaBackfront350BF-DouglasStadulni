@@ -33,7 +33,58 @@ class Automovel {
     
 }
 
+class GarrafadeRefrigerante {
+    
+    var cor: String = "vermelha"
+    var marca: String = "Coca-Cola"
+    var eReciclavel: Bool = true
+    var quantidadeDeMls: Double = 1.5
+    var corDoLiquido: String = "preto"
+    
+    func abrirGarrafa() {
+        print("A garrafa está aberta")
+    }
+    
+    func fecharGarrafa() {
+        print("A garrafa está fechada")
+    }
+}
 
+
+class Tenis {
+    
+    var corDoTenis: String = "azul"
+    var marcaDoTenis: String = "Nike"
+    var eRaro: Bool = true
+    var tipo: String = "Dunk"
+    var valor: Int = 2000
+    
+    func amarrar() {
+        print("O tenis está amarrado")
+    }
+    
+    func pisar() {
+        print("Pisei com o tenis no chao")
+    }
+}
+
+
+class Calca {
+    
+    var corDaCalca: String = "bege"
+    var valorDaCalca: Int = 299
+    var eRasgada: Bool = false
+    var marca: String = "Zara"
+    var tipo: String = "Jogger"
+    
+    func vestir() {
+        print("A calca foi vestida")
+    }
+    
+    func tirar() {
+        print("A calca foi tirada")
+    }
+}
 
 
 
