@@ -127,5 +127,39 @@ var meuCelular: Celular = Celular(marca: "Apple", modelo: "Iphone 14", ano: 2023
 //    "" -> String vazia
 //    nil -> SIGNIFICA NENHUM VALOR
 
+//==============================================
 
+//Crie uma classe chamada "Livro" que tenha as propriedades "titulo", "autor" e "preço". Em seguida, crie uma subclasse chamada "LivroDigital" que herde da classe "Livro" e tenha uma propriedade adicional chamada "formato". Crie dois construtores para a classe "LivroDigital". O primeiro deve aceitar o "formato" como parâmetro enquanto o segundo não deve aceitá-lo. Quando o "formato" não for fornecido, defina-o como "PDF". Defina então um método chamado "analisarPreco" que receba o "titulo" e o "preço" do livro como parâmetros e imprima "Livro caro" se o preço for maior que 25 ou "Livro barato", caso contrário.
+//
 
+class Livro {
+    
+    var titulo: String
+    var autor: String
+    var preco: Double
+    
+    init(titulo: String, autor: String, preco: Double) {
+        self.titulo = titulo
+        self.autor = autor
+        self.preco = preco
+    }
+    
+}
+
+class LivroDigital: Livro {
+    
+    var formato: String
+    
+    init(titulo: String, autor: String, preco: Double, formato: String) {
+        self.formato = formato
+        super.init(titulo: <#T##String#>, autor: <#T##String#>, preco: <#T##Double#>)
+    }
+    
+    init(titulo: String, autor: String, preco: Double) {
+        super.init(titulo: titulo, autor: <#T##String#>, preco: <#T##Double#>, formato: "pdf")
+        
+    }
+    
+    
+    
+}
