@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.placeholder = "Digite seu nome:"
+        emailTextField.placeholder = "Digite seu email:"
         nameTextField.delegate = self
         nameTextField.layer.borderWidth = 2
         nameTextField.layer.borderColor = UIColor.lightGray.cgColor
