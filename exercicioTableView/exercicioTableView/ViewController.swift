@@ -1,28 +1,28 @@
 //
 //  ViewController.swift
-//  meuPrimeiroAppTableView
+//  exercicioTableView
 //
-//  Created by Douglas Stadulni on 06/04/23.
+//  Created by Douglas Stadulni on 11/04/23.
 //
 
 import UIKit
-
-//MARK: - PASSA A PASSO TABLEVIEW COM XIB
-
-//Criar a tableview e fazer sua ligacao
-//configurar tableview (delegate e datasource)
-//criar celula customizavel
-//registrar celula
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var nameList: [String] = ["Caio", "Felipe", "Anderson", "Andressa", "Lucas"]
+    var songsList: [Songs] = [Songs(name: "Mockingbird", imageName: "mockingbird"),
+                              Songs(name: "BABYDOLL X The Perfect Girl", imageName: "babydoll"),
+                                Songs(name: "Unforgettable", imageName: "unforgettable"),
+                                Songs(name: "Lullaby Baby", imageName: "lullabybaby"),
+                                Songs(name: "Solway Flirth", imageName: "solwayflirth"),
+    ]
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configTableView()
+       configTableView()
     }
     
     func configTableView() {
@@ -31,34 +31,31 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         // registrar celula
         tableView.register(NameTableViewCell.nib(), forCellReuseIdentifier: NameTableViewCell.identifier)
-        
     }
-
 
 }
-// DATASOURCE - Responsavel pela parte de dados
+
 extension ViewController: UITableViewDataSource {
     
-    //quantidade de itens por seçã0
+  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return songsList.count
     }
     
-    //responsavel por criar as celular
+ 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
         let cell = tableView.dequeueReusableCell(withIdentifier: NameTableViewCell.identifier, for: indexPath) as? NameTableViewCell
-        cell?.setupCell(name: nameList[indexPath.row])
+        cell?.setupCell(fiveSongs: songsList[indexPath.row])
         return cell ?? UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 100
     }
     
-    
 }
-// DELEGATE - Responsavel pela interaçao do usuario
+
+
 extension ViewController: UITableViewDelegate {
     
 }
