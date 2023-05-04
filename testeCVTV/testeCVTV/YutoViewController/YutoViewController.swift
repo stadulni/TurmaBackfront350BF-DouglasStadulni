@@ -30,13 +30,12 @@ class YutoViewController: UIViewController {
         collectionView.backgroundColor = UIColor.clear
         
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.scrollDirection = .horizontal
             layout.scrollDirection = .vertical
             layout.estimatedItemSize = .zero
-            layout.itemSize = CGSize(width: 20 , height: 20)
-            layout.minimumInteritemSpacing = 5
-            layout.minimumLineSpacing = 5
-            layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+            layout.itemSize = CGSize(width: 50, height: 50)
+            layout.minimumInteritemSpacing = 2
+            layout.minimumLineSpacing = 10
+            layout.sectionInset = UIEdgeInsets(top: 30, left: 2, bottom: 30, right: 2)
         }
         
     }
@@ -69,7 +68,7 @@ extension YutoViewController: UICollectionViewDataSource {
 extension YutoViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.size.width - 30/2, height: view.frame.size.width - 30/2)
+        return CGSize(width:( collectionView.frame.size.width - 30)/4, height:( collectionView.frame.size.width - 30)/4)
     }
     
 }

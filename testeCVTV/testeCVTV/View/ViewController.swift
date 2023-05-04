@@ -35,17 +35,10 @@ class ViewController: UIViewController {
     func configView(){
         
         titleNameLabel.text = "Top Tier Decks"
-        //logoImageView.image = UIImage(named: "logo")
-        //logoImageView.contentMode = .scaleToFill
         
-        let logoImageView = UIImageView(image: UIImage(named: "Documents/logo.png"))
+        logoImageView.image = UIImage(named: "logo")
         logoImageView.contentMode = .scaleAspectFit
         navigationItem.titleView = logoImageView
-        
-//        let logoImageView = UIImageView(image: UIImage(named: "nome_da_imagem.png"))
-//        logoImageView.contentMode = .scaleAspectFit
-//        navigationItem.titleView = logoImageView
-
     }
     
     func configTableView(){
