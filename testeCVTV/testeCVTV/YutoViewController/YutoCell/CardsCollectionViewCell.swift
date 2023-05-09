@@ -22,8 +22,8 @@ class CardsCollectionViewCell: UICollectionViewCell {
         
     }
     
-    func setupCell(cards: Cards){
-        cardImageView.image = UIImage(named: cards.cardsImage)
+    func setupCell(cards: Specs){
+        cardImageView.image = UIImage(named: cards.cardImage)
     }
 
 }

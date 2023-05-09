@@ -10,9 +10,6 @@
 		8841451B2A07692E0020C103 /* CardDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841451A2A07692E0020C103 /* CardDescriptionViewController.swift */; };
 		8841451D2A07695E0020C103 /* CardDescriptionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8841451C2A07695E0020C103 /* CardDescriptionViewController.storyboard */; };
 		8841451F2A081BF50020C103 /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841451E2A081BF50020C103 /* Specs.swift */; };
-		884145222A081CFA0020C103 /* CardDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884145212A081CFA0020C103 /* CardDescriptionViewModel.swift */; };
-		884145262A089AEE0020C103 /* CardDescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884145242A089AEE0020C103 /* CardDescriptionCollectionViewCell.swift */; };
-		884145272A089AEE0020C103 /* CardDescriptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884145252A089AEE0020C103 /* CardDescriptionCollectionViewCell.xib */; };
 		88BCAE4D2A028D1D00E598E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE4C2A028D1D00E598E1 /* AppDelegate.swift */; };
 		88BCAE4F2A028D1D00E598E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE4E2A028D1D00E598E1 /* SceneDelegate.swift */; };
 		88BCAE512A028D1D00E598E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE502A028D1D00E598E1 /* ViewController.swift */; };
@@ -23,7 +20,6 @@
 		88BCAE662A02986300E598E1 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE652A02986300E598E1 /* ViewControllerViewModel.swift */; };
 		88BCAE6A2A029C3200E598E1 /* CharactersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE682A029C3200E598E1 /* CharactersCell.swift */; };
 		88BCAE6B2A029C3200E598E1 /* CharactersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE692A029C3200E598E1 /* CharactersCell.xib */; };
-		88BCAE6E2A02E49400E598E1 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE6D2A02E49400E598E1 /* Cards.swift */; };
 		88BCAE702A02E53D00E598E1 /* YutoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE6F2A02E53D00E598E1 /* YutoViewController.storyboard */; };
 		88BCAE722A02E56B00E598E1 /* YutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE712A02E56B00E598E1 /* YutoViewController.swift */; };
 		88BCAE772A02EE5300E598E1 /* YutoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE762A02EE5300E598E1 /* YutoViewModel.swift */; };
@@ -35,9 +31,6 @@
 		8841451A2A07692E0020C103 /* CardDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDescriptionViewController.swift; sourceTree = "<group>"; };
 		8841451C2A07695E0020C103 /* CardDescriptionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardDescriptionViewController.storyboard; sourceTree = "<group>"; };
 		8841451E2A081BF50020C103 /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
-		884145212A081CFA0020C103 /* CardDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDescriptionViewModel.swift; sourceTree = "<group>"; };
-		884145242A089AEE0020C103 /* CardDescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
-		884145252A089AEE0020C103 /* CardDescriptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDescriptionCollectionViewCell.xib; sourceTree = "<group>"; };
 		88BCAE492A028D1D00E598E1 /* testeCVTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeCVTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BCAE4C2A028D1D00E598E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BCAE4E2A028D1D00E598E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +43,6 @@
 		88BCAE652A02986300E598E1 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 		88BCAE682A029C3200E598E1 /* CharactersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCell.swift; sourceTree = "<group>"; };
 		88BCAE692A029C3200E598E1 /* CharactersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersCell.xib; sourceTree = "<group>"; };
-		88BCAE6D2A02E49400E598E1 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		88BCAE6F2A02E53D00E598E1 /* YutoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YutoViewController.storyboard; sourceTree = "<group>"; };
 		88BCAE712A02E56B00E598E1 /* YutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutoViewController.swift; sourceTree = "<group>"; };
 		88BCAE762A02EE5300E598E1 /* YutoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutoViewModel.swift; sourceTree = "<group>"; };
@@ -74,27 +66,8 @@
 			children = (
 				8841451A2A07692E0020C103 /* CardDescriptionViewController.swift */,
 				8841451C2A07695E0020C103 /* CardDescriptionViewController.storyboard */,
-				884145232A089AAA0020C103 /* CardsDescriptionCell */,
-				884145202A081CCA0020C103 /* CardDescriptionViewModel */,
 			);
 			path = CardDescriptionViewController;
-			sourceTree = "<group>";
-		};
-		884145202A081CCA0020C103 /* CardDescriptionViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				884145212A081CFA0020C103 /* CardDescriptionViewModel.swift */,
-			);
-			path = CardDescriptionViewModel;
-			sourceTree = "<group>";
-		};
-		884145232A089AAA0020C103 /* CardsDescriptionCell */ = {
-			isa = PBXGroup;
-			children = (
-				884145242A089AEE0020C103 /* CardDescriptionCollectionViewCell.swift */,
-				884145252A089AEE0020C103 /* CardDescriptionCollectionViewCell.xib */,
-			);
-			path = CardsDescriptionCell;
 			sourceTree = "<group>";
 		};
 		88BCAE402A028D1D00E598E1 = {
@@ -133,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				88BCAE612A028F1600E598E1 /* Character.swift */,
-				88BCAE6D2A02E49400E598E1 /* Cards.swift */,
 				8841451E2A081BF50020C103 /* Specs.swift */,
 			);
 			path = Model;
@@ -256,7 +228,6 @@
 				88BCAE592A028D1E00E598E1 /* LaunchScreen.storyboard in Resources */,
 				88BCAE562A028D1E00E598E1 /* Assets.xcassets in Resources */,
 				8841451D2A07695E0020C103 /* CardDescriptionViewController.storyboard in Resources */,
-				884145272A089AEE0020C103 /* CardDescriptionCollectionViewCell.xib in Resources */,
 				88BCAE7C2A02F17E00E598E1 /* CardsCollectionViewCell.xib in Resources */,
 				88BCAE542A028D1D00E598E1 /* Main.storyboard in Resources */,
 				88BCAE6B2A029C3200E598E1 /* CharactersCell.xib in Resources */,
@@ -272,15 +243,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8841451F2A081BF50020C103 /* Specs.swift in Sources */,
-				884145262A089AEE0020C103 /* CardDescriptionCollectionViewCell.swift in Sources */,
 				88BCAE7B2A02F17E00E598E1 /* CardsCollectionViewCell.swift in Sources */,
 				88BCAE512A028D1D00E598E1 /* ViewController.swift in Sources */,
 				88BCAE6A2A029C3200E598E1 /* CharactersCell.swift in Sources */,
 				88BCAE4D2A028D1D00E598E1 /* AppDelegate.swift in Sources */,
 				88BCAE722A02E56B00E598E1 /* YutoViewController.swift in Sources */,
-				88BCAE6E2A02E49400E598E1 /* Cards.swift in Sources */,
 				88BCAE662A02986300E598E1 /* ViewControllerViewModel.swift in Sources */,
-				884145222A081CFA0020C103 /* CardDescriptionViewModel.swift in Sources */,
 				88BCAE4F2A028D1D00E598E1 /* SceneDelegate.swift in Sources */,
 				88BCAE622A028F1600E598E1 /* Character.swift in Sources */,
 				8841451B2A07692E0020C103 /* CardDescriptionViewController.swift in Sources */,
