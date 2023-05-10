@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="notificationcenterAndProtocol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_apple" translatesAutoresizingMaskIntoConstraints="NO" id="5wW-oX-YWM">
+                                <rect key="frame" x="76.666666666666686" y="304.66666666666669" width="240" height="243.00000000000006"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="VTb-bY-nhZ"/>
+                                    <constraint firstAttribute="height" constant="243" id="me1-Ac-RIm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ens-a5-bpz">
+                                <rect key="frame" x="175.66666666666666" y="577.66666666666663" width="42" height="21"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abz-Cs-uw9">
+                                <rect key="frame" x="20" y="753" width="353" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.62565284582138281" blue="0.6512008179968507" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="sUe-5H-S1z"/>
+                                </constraints>
+                                <color key="tintColor" red="0.062745101750000004" green="0.062745101750000004" blue="0.062745101750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Clique aqui"/>
+                                <connections>
+                                    <action selector="tappedChooseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8h-Ad-IKO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.046706836543745127" green="0.10237667411655843" blue="0.28960824313789912" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5wW-oX-YWM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EG6-D9-cq6"/>
+                            <constraint firstItem="abz-Cs-uw9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Loo-oP-4i4"/>
+                            <constraint firstItem="ens-a5-bpz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bW9-JM-aE4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="abz-Cs-uw9" secondAttribute="bottom" constant="30" id="g5A-xt-eEc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="abz-Cs-uw9" secondAttribute="trailing" constant="20" id="h4i-sb-41O"/>
+                            <constraint firstItem="5wW-oX-YWM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jrS-Z7-enH"/>
+                            <constraint firstItem="ens-a5-bpz" firstAttribute="top" secondItem="5wW-oX-YWM" secondAttribute="bottom" constant="30" id="vbs-oI-50V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseButton" destination="abz-Cs-uw9" id="ox4-lN-67H"/>
+                        <outlet property="logoImageView" destination="5wW-oX-YWM" id="3a2-gE-aND"/>
+                        <outlet property="titleLabel" destination="ens-a5-bpz" id="vgm-Br-UeG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_apple" width="244" height="300"/>
+    </resources>
+</document>
