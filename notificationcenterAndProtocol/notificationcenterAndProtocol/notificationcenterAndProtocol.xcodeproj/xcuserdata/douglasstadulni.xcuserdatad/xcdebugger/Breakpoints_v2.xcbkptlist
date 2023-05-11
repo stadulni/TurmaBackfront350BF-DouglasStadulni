@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AF7922A1-C316-4579-BEE7-1C91337FA5CA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9BA385F-F990-494D-996F-E7482A0BF200"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "tappedChooseAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2E6F481-22ED-4B50-87B9-29025464142A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "SellectionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - 2bf148d3dc14e598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.delegate.getter : Swift.Optional&lt;notificationcenterAndProtocol.SellectionViewControllerProtocol&gt;"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - b91c9c2d11963da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.delegate.setter : Swift.Optional&lt;notificationcenterAndProtocol.SellectionViewControllerProtocol&gt;"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - 9186df9f1c434395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.delegate.modify : Swift.Optional&lt;notificationcenterAndProtocol.SellectionViewControllerProtocol&gt;"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - da4eb52e588aec61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.delegate.modify : Swift.Optional&lt;notificationcenterAndProtocol.SellectionViewControllerProtocol&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - 9af7a21f104dab50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; notificationcenterAndProtocol.SellectionViewController"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "F2E6F481-22ED-4B50-87B9-29025464142A - 54b9d69066a3ad5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notificationcenterAndProtocol.SellectionViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;notificationcenterAndProtocol.SellectionViewController&gt;"
+                  moduleName = "notificationcenterAndProtocol"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/douglasstadulni/TurmaBackfront350BF-DouglasStadulni/notificationcenterAndProtocol/notificationcenterAndProtocol/notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47202EE9-3462-4FA7-A748-78854D295C88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "tappedMacbookButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04E59F69-4D98-4A42-A596-8CFA5AE5925C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "tappedImacButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40E7587-4CF5-412E-AA41-B12247DE94FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "tappedChooseAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AE680B0-EA3A-4613-894A-6F63B7F6F903"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "tappedMacbookButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3001F6F3-448D-4742-9EB4-10F6711A033E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/SelectionViewController/SellectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "tappedImacButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "262DFC74-5E97-4B73-9577-1B66D2BCD550"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tappedChooseAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C96B9468-D593-4E0C-92B4-EE1C3DB31D4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tappedChooseAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CA57E0C-7678-4670-8F3D-95BB5BD1A4E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "tappedChooseAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49CD516A-005B-47A2-9E33-5EC8F7BA9DF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tappedMacbook()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2888936-0D6D-4C12-B41F-12928C6D3766"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notificationcenterAndProtocol/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "tappedImac()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
