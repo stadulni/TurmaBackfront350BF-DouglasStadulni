@@ -17,18 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BU9-EA-vVt">
-                                <rect key="frame" x="76.666666666666686" y="73" width="240" height="128"/>
+                                <rect key="frame" x="76.666666666666686" y="93" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="8S1-OA-PCf"/>
                                     <constraint firstAttribute="width" constant="240" id="ZNK-sC-Ujd"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Tier Decks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6I-xr-9F4">
-                                <rect key="frame" x="105.66666666666669" y="223" width="182" height="24"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ulq-gK-jBu">
                                 <rect key="frame" x="0.0" y="255" width="393" height="563"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -37,20 +31,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0078431377190000002" green="0.0078431377190000002" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="K6I-xr-9F4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3UJ-KH-ak5"/>
-                            <constraint firstItem="BU9-EA-vVt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="9xe-sV-HGB"/>
+                            <constraint firstItem="BU9-EA-vVt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="9xe-sV-HGB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ulq-gK-jBu" secondAttribute="trailing" id="Cj5-Tj-yQ3"/>
-                            <constraint firstItem="ulq-gK-jBu" firstAttribute="top" secondItem="K6I-xr-9F4" secondAttribute="bottom" constant="8" id="H7j-7z-zNy"/>
-                            <constraint firstItem="K6I-xr-9F4" firstAttribute="top" secondItem="BU9-EA-vVt" secondAttribute="bottom" constant="22" id="K0K-49-2VZ"/>
                             <constraint firstItem="ulq-gK-jBu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K3m-Qg-3Jz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ulq-gK-jBu" secondAttribute="bottom" id="Kte-Yh-1R9"/>
+                            <constraint firstItem="ulq-gK-jBu" firstAttribute="top" secondItem="BU9-EA-vVt" secondAttribute="bottom" constant="34" id="LEd-Gn-G9S"/>
                             <constraint firstItem="BU9-EA-vVt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RPP-9x-mHg"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="logoImageView" destination="BU9-EA-vVt" id="I68-rH-hdF"/>
                         <outlet property="tableView" destination="ulq-gK-jBu" id="OwF-Ak-RcK"/>
-                        <outlet property="titleNameLabel" destination="K6I-xr-9F4" id="sUq-VP-voR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

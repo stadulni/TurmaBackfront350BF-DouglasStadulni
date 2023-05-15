@@ -16,15 +16,23 @@
 		88BCAE542A028D1D00E598E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE522A028D1D00E598E1 /* Main.storyboard */; };
 		88BCAE562A028D1E00E598E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE552A028D1E00E598E1 /* Assets.xcassets */; };
 		88BCAE592A028D1E00E598E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE572A028D1E00E598E1 /* LaunchScreen.storyboard */; };
-		88BCAE622A028F1600E598E1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE612A028F1600E598E1 /* Character.swift */; };
+		88BCAE622A028F1600E598E1 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE612A028F1600E598E1 /* Series.swift */; };
 		88BCAE662A02986300E598E1 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE652A02986300E598E1 /* ViewControllerViewModel.swift */; };
-		88BCAE6A2A029C3200E598E1 /* CharactersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE682A029C3200E598E1 /* CharactersCell.swift */; };
-		88BCAE6B2A029C3200E598E1 /* CharactersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE692A029C3200E598E1 /* CharactersCell.xib */; };
+		88BCAE6A2A029C3200E598E1 /* SeriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE682A029C3200E598E1 /* SeriesCell.swift */; };
+		88BCAE6B2A029C3200E598E1 /* SeriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE692A029C3200E598E1 /* SeriesCell.xib */; };
 		88BCAE702A02E53D00E598E1 /* YutoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE6F2A02E53D00E598E1 /* YutoViewController.storyboard */; };
 		88BCAE722A02E56B00E598E1 /* YutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE712A02E56B00E598E1 /* YutoViewController.swift */; };
 		88BCAE772A02EE5300E598E1 /* YutoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE762A02EE5300E598E1 /* YutoViewModel.swift */; };
 		88BCAE7B2A02F17E00E598E1 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCAE792A02F17E00E598E1 /* CardsCollectionViewCell.swift */; };
 		88BCAE7C2A02F17E00E598E1 /* CardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BCAE7A2A02F17E00E598E1 /* CardsCollectionViewCell.xib */; };
+		88CBE77B2A12C49700E367B3 /* CharactersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CBE77A2A12C49700E367B3 /* CharactersViewController.storyboard */; };
+		88CBE77D2A12C4A300E367B3 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBE77C2A12C4A300E367B3 /* CharactersViewController.swift */; };
+		88CBE7802A12D3E600E367B3 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBE77F2A12D3E600E367B3 /* CharactersViewModel.swift */; };
+		88CBE7822A12D45000E367B3 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBE7812A12D45000E367B3 /* Characters.swift */; };
+		88CBE7862A12D70C00E367B3 /* CharactersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBE7842A12D70C00E367B3 /* CharactersCollectionViewCell.swift */; };
+		88CBE7872A12D70C00E367B3 /* CharactersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CBE7852A12D70C00E367B3 /* CharactersCollectionViewCell.xib */; };
+		88CBE78C2A12E2B800E367B3 /* CharacterDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBE78B2A12E2B800E367B3 /* CharacterDescriptionViewController.swift */; };
+		88CBE78E2A12E2CB00E367B3 /* CharacterDescriptionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CBE78D2A12E2CB00E367B3 /* CharacterDescriptionViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,15 +47,23 @@
 		88BCAE552A028D1E00E598E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BCAE582A028D1E00E598E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BCAE5A2A028D1E00E598E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88BCAE612A028F1600E598E1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		88BCAE612A028F1600E598E1 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		88BCAE652A02986300E598E1 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
-		88BCAE682A029C3200E598E1 /* CharactersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCell.swift; sourceTree = "<group>"; };
-		88BCAE692A029C3200E598E1 /* CharactersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersCell.xib; sourceTree = "<group>"; };
+		88BCAE682A029C3200E598E1 /* SeriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCell.swift; sourceTree = "<group>"; };
+		88BCAE692A029C3200E598E1 /* SeriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeriesCell.xib; sourceTree = "<group>"; };
 		88BCAE6F2A02E53D00E598E1 /* YutoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YutoViewController.storyboard; sourceTree = "<group>"; };
 		88BCAE712A02E56B00E598E1 /* YutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutoViewController.swift; sourceTree = "<group>"; };
 		88BCAE762A02EE5300E598E1 /* YutoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutoViewModel.swift; sourceTree = "<group>"; };
 		88BCAE792A02F17E00E598E1 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
 		88BCAE7A2A02F17E00E598E1 /* CardsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsCollectionViewCell.xib; sourceTree = "<group>"; };
+		88CBE77A2A12C49700E367B3 /* CharactersViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharactersViewController.storyboard; sourceTree = "<group>"; };
+		88CBE77C2A12C4A300E367B3 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		88CBE77F2A12D3E600E367B3 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		88CBE7812A12D45000E367B3 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		88CBE7842A12D70C00E367B3 /* CharactersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewCell.swift; sourceTree = "<group>"; };
+		88CBE7852A12D70C00E367B3 /* CharactersCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersCollectionViewCell.xib; sourceTree = "<group>"; };
+		88CBE78B2A12E2B800E367B3 /* CharacterDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDescriptionViewController.swift; sourceTree = "<group>"; };
+		88CBE78D2A12E2CB00E367B3 /* CharacterDescriptionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharacterDescriptionViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +107,8 @@
 			children = (
 				88BCAE602A028ECE00E598E1 /* Model */,
 				88BCAE632A028F8900E598E1 /* View */,
+				88CBE7792A12C43600E367B3 /* CharactersViewController */,
+				88CBE78A2A12E23F00E367B3 /* CharacterDescriptionViewController */,
 				88BCAE6C2A02D1BC00E598E1 /* YutoViewController */,
 				884145192A0768C60020C103 /* CardDescriptionViewController */,
 				88BCAE552A028D1E00E598E1 /* Assets.xcassets */,
@@ -105,8 +123,9 @@
 		88BCAE602A028ECE00E598E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				88BCAE612A028F1600E598E1 /* Character.swift */,
+				88BCAE612A028F1600E598E1 /* Series.swift */,
 				8841451E2A081BF50020C103 /* Specs.swift */,
+				88CBE7812A12D45000E367B3 /* Characters.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,8 +152,8 @@
 		88BCAE672A029BFA00E598E1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				88BCAE682A029C3200E598E1 /* CharactersCell.swift */,
-				88BCAE692A029C3200E598E1 /* CharactersCell.xib */,
+				88BCAE682A029C3200E598E1 /* SeriesCell.swift */,
+				88BCAE692A029C3200E598E1 /* SeriesCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -165,6 +184,43 @@
 				88BCAE7A2A02F17E00E598E1 /* CardsCollectionViewCell.xib */,
 			);
 			path = YutoCell;
+			sourceTree = "<group>";
+		};
+		88CBE7792A12C43600E367B3 /* CharactersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88CBE77C2A12C4A300E367B3 /* CharactersViewController.swift */,
+				88CBE77A2A12C49700E367B3 /* CharactersViewController.storyboard */,
+				88CBE7832A12D6DC00E367B3 /* CharactersCollectionViewCell */,
+				88CBE77E2A12D3C500E367B3 /* CharacterViewModel */,
+			);
+			path = CharactersViewController;
+			sourceTree = "<group>";
+		};
+		88CBE77E2A12D3C500E367B3 /* CharacterViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88CBE77F2A12D3E600E367B3 /* CharactersViewModel.swift */,
+			);
+			path = CharacterViewModel;
+			sourceTree = "<group>";
+		};
+		88CBE7832A12D6DC00E367B3 /* CharactersCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				88CBE7842A12D70C00E367B3 /* CharactersCollectionViewCell.swift */,
+				88CBE7852A12D70C00E367B3 /* CharactersCollectionViewCell.xib */,
+			);
+			path = CharactersCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		88CBE78A2A12E23F00E367B3 /* CharacterDescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88CBE78B2A12E2B800E367B3 /* CharacterDescriptionViewController.swift */,
+				88CBE78D2A12E2CB00E367B3 /* CharacterDescriptionViewController.storyboard */,
+			);
+			path = CharacterDescriptionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,12 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BCAE592A028D1E00E598E1 /* LaunchScreen.storyboard in Resources */,
+				88CBE77B2A12C49700E367B3 /* CharactersViewController.storyboard in Resources */,
 				88BCAE562A028D1E00E598E1 /* Assets.xcassets in Resources */,
 				8841451D2A07695E0020C103 /* CardDescriptionViewController.storyboard in Resources */,
 				88BCAE7C2A02F17E00E598E1 /* CardsCollectionViewCell.xib in Resources */,
 				88BCAE542A028D1D00E598E1 /* Main.storyboard in Resources */,
-				88BCAE6B2A029C3200E598E1 /* CharactersCell.xib in Resources */,
+				88BCAE6B2A029C3200E598E1 /* SeriesCell.xib in Resources */,
 				88BCAE702A02E53D00E598E1 /* YutoViewController.storyboard in Resources */,
+				88CBE78E2A12E2CB00E367B3 /* CharacterDescriptionViewController.storyboard in Resources */,
+				88CBE7872A12D70C00E367B3 /* CharactersCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +302,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8841451F2A081BF50020C103 /* Specs.swift in Sources */,
+				88CBE7822A12D45000E367B3 /* Characters.swift in Sources */,
 				88BCAE7B2A02F17E00E598E1 /* CardsCollectionViewCell.swift in Sources */,
+				88CBE78C2A12E2B800E367B3 /* CharacterDescriptionViewController.swift in Sources */,
 				88BCAE512A028D1D00E598E1 /* ViewController.swift in Sources */,
-				88BCAE6A2A029C3200E598E1 /* CharactersCell.swift in Sources */,
+				88CBE7862A12D70C00E367B3 /* CharactersCollectionViewCell.swift in Sources */,
+				88BCAE6A2A029C3200E598E1 /* SeriesCell.swift in Sources */,
 				88BCAE4D2A028D1D00E598E1 /* AppDelegate.swift in Sources */,
+				88CBE7802A12D3E600E367B3 /* CharactersViewModel.swift in Sources */,
 				88BCAE722A02E56B00E598E1 /* YutoViewController.swift in Sources */,
 				88BCAE662A02986300E598E1 /* ViewControllerViewModel.swift in Sources */,
 				88BCAE4F2A028D1D00E598E1 /* SceneDelegate.swift in Sources */,
-				88BCAE622A028F1600E598E1 /* Character.swift in Sources */,
+				88CBE77D2A12C4A300E367B3 /* CharactersViewController.swift in Sources */,
+				88BCAE622A028F1600E598E1 /* Series.swift in Sources */,
 				8841451B2A07692E0020C103 /* CardDescriptionViewController.swift in Sources */,
 				88BCAE772A02EE5300E598E1 /* YutoViewModel.swift in Sources */,
 			);

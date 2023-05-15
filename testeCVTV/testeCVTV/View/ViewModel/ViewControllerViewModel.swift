@@ -9,14 +9,18 @@ import Foundation
 
 class ViewControllerViewModel {
     
-   private var listOfCharacters: [Character] = [Character(imageCharacter: "yuto"), Character(imageCharacter: "resonators")]
+   private var listOfSeries: [Series] = [Series(imageSeries: "dm"),
+                                         Series(imageSeries: "gx"),
+                                         Series(imageSeries: "5ds"),
+                                         Series(imageSeries: "arcv"),
+                                         Series(imageSeries: "vrains")]
     
-    func getCharacter(index: Int) -> Character {
-        return listOfCharacters[index]
+    func getSeries(index: Int) -> Series {
+        return listOfSeries[index]
     }
     
     var arraySize: Int {
-        return listOfCharacters.count
+        return listOfSeries.count
     }
     
 }

@@ -10,9 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var logoImageView: UIImageView!
-    
-    @IBOutlet weak var titleNameLabel: UILabel!
-    
     @IBOutlet weak var tableView: UITableView!
     
     private var viewModel: ViewControllerViewModel = ViewControllerViewModel()
@@ -34,8 +31,6 @@ class ViewController: UIViewController {
     
     func configView(){
         
-        titleNameLabel.text = "Top Tier Decks"
-        
         logoImageView.image = UIImage(named: "logo")
         logoImageView.contentMode = .scaleAspectFit
         navigationItem.titleView = logoImageView
@@ -45,7 +40,7 @@ class ViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(CharactersCell.nib(), forCellReuseIdentifier: CharactersCell.identifier)
+        tableView.register(SeriesCell.nib(), forCellReuseIdentifier: SeriesCell.identifier)
         tableView.backgroundColor = UIColor.clear
         
         let cellSpacing: CGFloat = 20
@@ -69,8 +64,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CharactersCell.self), for: indexPath) as? CharactersCell{
-            cell.setupCell(character: viewModel.getCharacter(index: indexPath.row))
+        if let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SeriesCell.self), for: indexPath) as? SeriesCell{
+            cell.setupCell(serie: viewModel.getSeries(index: indexPath.row))
             return cell
         }
         return UITableViewCell()
@@ -82,8 +77,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = UIStoryboard(name: String(describing: YutoViewController.self), bundle: nil).instantiateViewController(withIdentifier: String(describing: YutoViewController.self)) as? YutoViewController {
+        if let vc = UIStoryboard(name: String(describing: CharactersViewController.self), bundle: nil).instantiateViewController(withIdentifier: String(describing: CharactersViewController.self)) as? CharactersViewController {
             vc.modalPresentationStyle = .formSheet
+            vc.serie = viewModel.getSeries(index: indexPath.item)
             present(vc, animated: true)
         }
     }
