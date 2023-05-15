@@ -24,6 +24,15 @@ class CardDescriptionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        configElements()
+        configBackground()
+    }
+    
+    func configBackground(){
+
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "background")
+        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
     }
     
     func configElements(){

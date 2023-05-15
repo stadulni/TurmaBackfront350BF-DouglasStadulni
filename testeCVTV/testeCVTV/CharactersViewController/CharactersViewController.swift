@@ -73,9 +73,12 @@ extension CharactersViewController: UICollectionViewDataSource{
         return cell ?? UICollectionViewCell()
     }
 
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        return
-//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc: CharacterDescriptionViewController? = UIStoryboard(name: String(describing: CharacterDescriptionViewController.self), bundle: nil).instantiateViewController(withIdentifier: String(describing: CharacterDescriptionViewController.self)) as? CharacterDescriptionViewController
+        vc?.modalPresentationStyle = .formSheet
+        present(vc ?? UIViewController(), animated: true)
+        
+    }
 
 }
 
