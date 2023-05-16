@@ -70,8 +70,22 @@ class CardDescriptionViewController: UIViewController {
         }
         
         
-    
+        if let atkText = spec?.numberOfAtk, !atkText.isEmpty {
+                atkLabel.isHidden = false
+                numberOfAtkLabel.isHidden = false
+            } else {
+                atkLabel.isHidden = true
+                numberOfAtkLabel.isHidden = true
+            }
 
+            if let defText = spec?.numberOfDef, !defText.isEmpty {
+                defLabel.isHidden = false
+                numberOfDefLabel.isHidden = false
+            } else {
+                defLabel.isHidden = true
+                numberOfDefLabel.isHidden = true
+            }
+        
     }
    
 }
