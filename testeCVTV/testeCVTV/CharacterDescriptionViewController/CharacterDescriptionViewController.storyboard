@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="2Bg-kp-Uyq">
-                                <rect key="frame" x="16" y="129" width="361" height="60"/>
+                                <rect key="frame" x="116" y="129" width="161" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXK-2a-x4r">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="l5U-32-fqp"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="l5U-32-fqp"/>
                                             <constraint firstAttribute="height" constant="60" id="tJ3-uY-dcW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="25"/>
@@ -30,9 +30,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrO-r4-x33">
-                                        <rect key="frame" x="186" y="0.0" width="175" height="60"/>
+                                        <rect key="frame" x="86" y="0.0" width="75" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="IqU-Lb-WFM"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="IqU-Lb-WFM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="25"/>
                                         <nil key="textColor"/>

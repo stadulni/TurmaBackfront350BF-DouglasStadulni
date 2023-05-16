@@ -76,6 +76,7 @@ extension CharactersViewController: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc: CharacterDescriptionViewController? = UIStoryboard(name: String(describing: CharacterDescriptionViewController.self), bundle: nil).instantiateViewController(withIdentifier: String(describing: CharacterDescriptionViewController.self)) as? CharacterDescriptionViewController
         vc?.modalPresentationStyle = .formSheet
+        vc?.bio = viewModel.getDescriptionCharacter(index: indexPath.item)
         present(vc ?? UIViewController(), animated: true)
         
     }

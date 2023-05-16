@@ -15,6 +15,7 @@ class CharacterDescriptionViewController: UIViewController {
     @IBOutlet weak var characterDescriptionLabel: UILabel!
     @IBOutlet weak var deckButton: UIButton!
     
+    var bio: Characters?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,15 +33,15 @@ class CharacterDescriptionViewController: UIViewController {
     
     func configView(){
         
-        nameCharacterLabel.text = "Yami"
+        nameCharacterLabel.text = bio?.charactersName ?? ""
         nameCharacterLabel.textColor = .white
         
-        surnameCharacterLabel.text = "Yugi"
+        surnameCharacterLabel.text = bio?.charactersSurname ?? ""
         surnameCharacterLabel.textColor = .white
         
-        characterImageView.image = UIImage(named: "yamiyugi")
+        characterImageView.image = UIImage(named: bio?.charactersImage ?? "")
         
-        characterDescriptionLabel.text = "When Yugi Muto solved the Millennium Puzzle, he was infused with the ancient spirit of Yami Yugi. Yami Yugi is ready to face any challenge in order to regain his lost memories. An expert Duelist wielding unmatched skills and cards, Yami Yugi's most trusted monster is Dark Magician."
+        characterDescriptionLabel.text = bio?.charactersDescription ?? ""
         characterDescriptionLabel.textColor = .white
         
         deckButton.layer.cornerRadius = 10

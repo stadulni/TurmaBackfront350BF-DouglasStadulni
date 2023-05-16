@@ -9,5 +9,8 @@ import Foundation
 
 struct Characters {
     
+    var charactersName: String?
+    var charactersSurname: String?
     var charactersImage: String
+    var charactersDescription: String?
 }
