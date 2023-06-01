@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A20CB12A25B5C500A10407 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A20CB02A25B5C500A10407 /* HomeScreen.swift */; };
 		88BDAAF72A1FE0C10035B125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */; };
 		88BDAAF92A1FE0C10035B125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAF82A1FE0C10035B125 /* SceneDelegate.swift */; };
-		88BDAAFB2A1FE0C10035B125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAFA2A1FE0C10035B125 /* ViewController.swift */; };
+		88BDAAFB2A1FE0C10035B125 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAFA2A1FE0C10035B125 /* HomeViewController.swift */; };
 		88BDAB002A1FE0C20035B125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BDAAFF2A1FE0C20035B125 /* Assets.xcassets */; };
 		88BDAB032A1FE0C20035B125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BDAB012A1FE0C20035B125 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88A20CB02A25B5C500A10407 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		88BDAAF32A1FE0C10035B125 /* PrimeiroProjetoViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiroProjetoViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BDAAF82A1FE0C10035B125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88BDAAFA2A1FE0C10035B125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88BDAAFA2A1FE0C10035B125 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88BDAAFF2A1FE0C20035B125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BDAB022A1FE0C20035B125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BDAB042A1FE0C20035B125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +37,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88A20CAD2A25B54700A10407 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88BDAAFA2A1FE0C10035B125 /* HomeViewController.swift */,
+				88A20CAF2A25B59900A10407 /* Screen */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88A20CAF2A25B59900A10407 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				88A20CB02A25B5C500A10407 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		88BDAAEA2A1FE0C10035B125 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +73,9 @@
 		88BDAAF52A1FE0C10035B125 /* PrimeiroProjetoViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				88A20CAD2A25B54700A10407 /* Home */,
 				88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */,
 				88BDAAF82A1FE0C10035B125 /* SceneDelegate.swift */,
-				88BDAAFA2A1FE0C10035B125 /* ViewController.swift */,
 				88BDAAFF2A1FE0C20035B125 /* Assets.xcassets */,
 				88BDAB012A1FE0C20035B125 /* LaunchScreen.storyboard */,
 				88BDAB042A1FE0C20035B125 /* Info.plist */,
@@ -134,7 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88BDAAFB2A1FE0C10035B125 /* ViewController.swift in Sources */,
+				88A20CB12A25B5C500A10407 /* HomeScreen.swift in Sources */,
+				88BDAAFB2A1FE0C10035B125 /* HomeViewController.swift in Sources */,
 				88BDAAF72A1FE0C10035B125 /* AppDelegate.swift in Sources */,
 				88BDAAF92A1FE0C10035B125 /* SceneDelegate.swift in Sources */,
 			);
