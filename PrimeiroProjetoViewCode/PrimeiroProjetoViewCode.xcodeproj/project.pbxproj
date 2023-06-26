@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886A89542A29636000CDF455 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 886A89532A29636000CDF455 /* OpenAISwift */; };
+		886A89572A2963E900CDF455 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A89562A2963E900CDF455 /* HomeService.swift */; };
 		88A20CB12A25B5C500A10407 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A20CB02A25B5C500A10407 /* HomeScreen.swift */; };
 		88BDAAF72A1FE0C10035B125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */; };
 		88BDAAF92A1FE0C10035B125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDAAF82A1FE0C10035B125 /* SceneDelegate.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		886A89562A2963E900CDF455 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		88A20CB02A25B5C500A10407 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		88BDAAF32A1FE0C10035B125 /* PrimeiroProjetoViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiroProjetoViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,12 +34,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886A89542A29636000CDF455 /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		886A89552A2963D100CDF455 /* HomeService */ = {
+			isa = PBXGroup;
+			children = (
+				886A89562A2963E900CDF455 /* HomeService.swift */,
+			);
+			path = HomeService;
+			sourceTree = "<group>";
+		};
 		88A20CAD2A25B54700A10407 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +85,7 @@
 		88BDAAF52A1FE0C10035B125 /* PrimeiroProjetoViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				886A89552A2963D100CDF455 /* HomeService */,
 				88A20CAD2A25B54700A10407 /* Home */,
 				88BDAAF62A1FE0C10035B125 /* AppDelegate.swift */,
 				88BDAAF82A1FE0C10035B125 /* SceneDelegate.swift */,
@@ -99,6 +112,9 @@
 			dependencies = (
 			);
 			name = PrimeiroProjetoViewCode;
+			packageProductDependencies = (
+				886A89532A29636000CDF455 /* OpenAISwift */,
+			);
 			productName = PrimeiroProjetoViewCode;
 			productReference = 88BDAAF32A1FE0C10035B125 /* PrimeiroProjetoViewCode.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 88BDAAEA2A1FE0C10035B125;
+			packageReferences = (
+				886A89522A29636000CDF455 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = 88BDAAF42A1FE0C10035B125 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -157,6 +176,7 @@
 				88BDAAFB2A1FE0C10035B125 /* HomeViewController.swift in Sources */,
 				88BDAAF72A1FE0C10035B125 /* AppDelegate.swift in Sources */,
 				88BDAAF92A1FE0C10035B125 /* SceneDelegate.swift in Sources */,
+				886A89572A2963E900CDF455 /* HomeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		886A89522A29636000CDF455 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		886A89532A29636000CDF455 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886A89522A29636000CDF455 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88BDAAEB2A1FE0C10035B125 /* Project object */;
 }
